@@ -1,4 +1,4 @@
-# cliente
+# CRUD de Clientes para testes
 API de Teste com implementação da pirâmide de testes proposta por Martin Fowler para Microserviços.
 
 ## O que foi desenvolvido aqui:
