@@ -2,7 +2,7 @@
 API de Teste com implementação da pirâmide de testes proposta por Martin Fowler para Microserviços.
 
 ## O que foi desenvolvido aqui:
-Microserviço REST desenvolvido em Java com SpringBoot
+- Microserviço REST desenvolvido em Java com SpringBoot
 
 ## Para fazer (TODO)
 - Desenvolver testes unitarios.
