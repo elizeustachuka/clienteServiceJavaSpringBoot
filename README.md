@@ -6,6 +6,7 @@ API de Teste com implementação da pirâmide de testes proposta por Martin Fowl
 
 ## Para fazer (TODO)
 - Desenvolver testes unitarios.
+- COnfigurar Pipeline no GitHub
 - Adicionar Autenticação na API.
 - Implementar Swager.
 - Subir para a AWS ou Heroku.
