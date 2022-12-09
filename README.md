@@ -5,9 +5,10 @@ API de Teste com implementação da pirâmide de testes proposta por Martin Fowl
 Microserviço REST desenvolvido em Java com SpringBoot
 
 ## Para fazer (TODO)
-- Desenvolver testes unitarios
-- Adicionar Autenticação na API
-- Subir para a AWS ou Heroku
-- Desenvolver testes de componente
-- Desenvolver testes de contrato
-- Desenvolver testes e2e
+- Desenvolver testes unitarios.
+- Adicionar Autenticação na API.
+- Implementar Swager.
+- Subir para a AWS ou Heroku.
+- Desenvolver testes de componente.
+- Desenvolver testes de contrato.
+- Desenvolver testes e2e.
