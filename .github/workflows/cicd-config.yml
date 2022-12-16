@@ -32,6 +32,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-    #BUILD
+    #UNIT TESTS
     - name: Run Unit Tests
       run: mvn test

@@ -1,22 +1,30 @@
 # CRUD de Clientes para testes
-API de Teste com implementação da pirâmide de testes proposta por Martin Fowler para Microserviços.
-
-# Setup Java
-
 [![Main workflow](https://github.com/elizeustachuka/cliente/actions/workflows/cicd-config.yml/badge.svg)](https://github.com/elizeustachuka/cliente/blob/main/.github/workflows/cicd-config.yml)
 
+API de Teste com implementação da pirâmide de testes proposta por Martin Fowler para Microserviços.
+
 ## O que foi desenvolvido aqui:
-- Microserviço REST desenvolvido em Java com SpringBoot
+:heavy_check_mark: Microserviço REST desenvolvido em Java com SpringBoot
 
 ## Para fazer (TODO)
-- Adicionar integração com viaCEP
-- Desenvolver testes unitarios.
-- Implementar Sonar.
-- Configurar Pipeline no GitHub.
-- Adicionar Autenticação na API.
-- Implementar Swager.
-- Subir para a AWS ou Heroku.
-- Desenvolver testes de componente.
-- Desenvolver testes de contrato.
-- Implementar testes de mutação.
-- Desenvolver testes e2e.
+:o: Adicionar integração com viaCEP
+
+:o: Desenvolver testes unitarios.
+
+:o: Implementar Sonar.
+
+:o: Configurar Pipeline no GitHub.
+
+:o: Adicionar Autenticação na API.
+
+:o: Implementar Swager.
+
+:o: Subir para a AWS ou Heroku.
+
+:o: Desenvolver testes de componente.
+
+:o: Desenvolver testes de contrato.
+
+:o: Implementar testes de mutação.
+
+:o: Desenvolver testes e2e.
