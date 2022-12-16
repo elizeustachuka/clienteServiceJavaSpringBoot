@@ -24,6 +24,16 @@ public class Cliente implements Serializable {
     private String email;
     @Column(name="cpf", nullable = false)
     private String cpf;
+    @Column(name="cep", nullable = false)
+    private String cep;
+
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
 
     public Long getId() {
         return id;
@@ -32,7 +42,6 @@ public class Cliente implements Serializable {
     public void setId(Long id) {
         this.id = id;
     }
-
 
     public String getNome() {
         return nome;
