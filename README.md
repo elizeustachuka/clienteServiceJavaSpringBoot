@@ -5,7 +5,9 @@ API de Teste com implementação da pirâmide de testes proposta por Martin Fowl
 
 ## O que foi desenvolvido aqui:
 :heavy_check_mark: Microserviço REST desenvolvido em Java com SpringBoot.
+
 :heavy_check_mark: Adicionar integração com viaCEP.
+
 :heavy_check_mark: Adicionar tratamento de Exceptions caso o VIA CEP esta indisponível.
 
 ## Para fazer (TODO)
