@@ -33,7 +33,7 @@ public class ClienteController {
             String cep = cliente.getCep();
 
             if (cep == null) throw new ResourceIncorrectFormatException("The field 'cep' is required");
-            if (!Util.validaCep(cep)) throw new ResourceNotFoundException("The CEP is invalid or format is incorrect");
+            if (!Util.validaCep(cep)) throw new ResourceIncorrectFormatException("The CEP is invalid or format is incorrect");
 
             Endereco endereco = getEndereco(cliente.getCep());
 
