@@ -10,6 +10,7 @@ As seguintes ferramentas estão sendo usadas na construção do projeto:
 - [Java](https://www.java.com/)
 - [SpringBoot](https://spring.io/)
 - [JUnit5](https://junit.org/junit5/)
+- [H2 Banco em Memoria](https://www.h2database.com/html/main.html)
 
 ### 🏷️ Features
 - [x] Microserviço REST desenvolvido em Java com SpringBoot.
