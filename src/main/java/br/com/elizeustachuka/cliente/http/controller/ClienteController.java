@@ -2,24 +2,16 @@ package br.com.elizeustachuka.cliente.http.controller;
 
 import br.com.elizeustachuka.cliente.entity.Cliente;
 import br.com.elizeustachuka.cliente.entity.Endereco;
+import br.com.elizeustachuka.cliente.exceptions.ResourceIncorrectFormatException;
+import br.com.elizeustachuka.cliente.exceptions.ResourceNotFoundException;
 import br.com.elizeustachuka.cliente.service.ClienteService;
-import com.google.gson.Gson;
+import br.com.elizeustachuka.cliente.utils.Util;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-import jakarta.json.bind.JsonbBuilder;
-import jakarta.json.bind.JsonbConfig;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.nio.Buffer;
 import java.util.List;
 
 import static br.com.elizeustachuka.cliente.gateway.ViaCepGateway.getEndereco;
@@ -37,6 +29,11 @@ public class ClienteController {
         @PostMapping
         @ResponseStatus(HttpStatus.CREATED)
         public Cliente salvar(@RequestBody Cliente cliente) throws Exception {
+
+            String cep = cliente.getCep();
+
+            if (cep == null) throw new ResourceIncorrectFormatException("The field 'cep' is required");
+            if (!Util.validaCep(cep)) throw new ResourceNotFoundException("The CEP is invalid or format is incorrect");
 
             Endereco endereco = getEndereco(cliente.getCep());
 

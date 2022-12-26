@@ -5,7 +5,6 @@ public class Util {
         if (!cep.matches("\\d{8}")) {
             return false;
         }
-
         return true;
     }
 }
