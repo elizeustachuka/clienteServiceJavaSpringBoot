@@ -1,32 +1,28 @@
-# CRUD de Clientes para testes
+<h4 align="center"> 🚧  CRUD de Clientes em SpringBoot 🚀 Em construção...  🚧</h4>
+
 [![Main workflow](https://github.com/elizeustachuka/cliente/actions/workflows/cicd-config.yml/badge.svg)](https://github.com/elizeustachuka/cliente/blob/main/.github/workflows/cicd-config.yml)
 
 API de Teste com implementação da pirâmide de testes proposta por Martin Fowler para Microserviços.
 
-## O que foi desenvolvido aqui:
-:heavy_check_mark: Microserviço REST desenvolvido em Java com SpringBoot.
+### 🛠 Tecnologias
+As seguintes ferramentas estão sendo usadas na construção do projeto:
 
-:heavy_check_mark: Iintegração com viaCEP.
+- [Java](https://www.java.com/)
+- [SpringBoot](https://spring.io/)
+- [JUnit5](https://junit.org/junit5/)
+- [H2 Banco em Memoria](https://www.h2database.com/html/main.html)
 
-:heavy_check_mark: Tratamento de Exceptions caso o VIA CEP esteja indisponível.
-
-## Para fazer (TODO)
-:o: Desenvolver testes unitarios.
-
-:o: Implementar Sonar.
-
-:o: Configurar Pipeline no GitHub.
-
-:o: Adicionar Autenticação na API.
-
-:o: Implementar Swager.
-
-:o: Subir para a AWS ou Heroku.
-
-:o: Desenvolver testes de componente.
-
-:o: Desenvolver testes de contrato.
-
-:o: Implementar testes de mutação.
-
-:o: Desenvolver testes e2e.
+### 🏷️ Features
+- [x] Microserviço REST desenvolvido em Java com SpringBoot.
+- [x] Pipeline no GitHub.
+- [x] Integração com viaCEP.
+- [x] Tratamento de Exceptions caso o VIA CEP esteja indisponível.
+- [ ] Testes unitarios.
+- [ ] Testes de mutação.
+- [ ] SonarCube.
+- [ ] Autenticação na API.
+- [ ] Documentação e Swager.
+- [ ] Subir para a AWS ou Heroku.
+- [ ] Testes de componente.
+- [ ] Testes de contrato.
+- [ ] Testes E2E.
