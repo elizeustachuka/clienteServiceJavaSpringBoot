@@ -1,4 +1,4 @@
-<h4 align="center"> 🚧  CRUS de Clientes em SpringBoot 🚀 Em construção...  🚧</h4>
+<h4 align="center"> 🚧  CRUD de Clientes em SpringBoot 🚀 Em construção...  🚧</h4>
 
 [![Main workflow](https://github.com/elizeustachuka/cliente/actions/workflows/cicd-config.yml/badge.svg)](https://github.com/elizeustachuka/cliente/blob/main/.github/workflows/cicd-config.yml)
 
