@@ -1,7 +1,5 @@
 package br.com.elizeustachuka.cliente.entity;
 
-import jakarta.persistence.Column;
-
 public class Endereco {
     private String cep;
     private String logradouro;
